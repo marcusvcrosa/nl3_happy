@@ -1,0 +1,33 @@
+/* o que é uma regra css?
+o CSS vai sempre pegar o ultimo elemento por exempo se tiver duas regras de body pega a ultima
+# = é utilizado para id do html
+*/
+
+* { /*Seletor geral*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh; /*vh viewport height divide a tela em 100 pedaços*/
+    color: white;
+    background: #EBF2F5;
+    
+}
+
+:root { /*acessa o elemento root da pagina o html, por padrão o font-size é 16px fazendo essa porcentagem setamos para 10px para toda pagina e dai podemos usar o rem para tamanho de fonte nos outros elementos*/
+    font-size: 62.5%; /*equivalente a 10 px*/
+}
+
+
+body, input, button, textarea {
+    /* font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    font-family: 'Nunito', sans-serif;*/
+
+    font: 400 1.8rem/1 'Nunito', sans-serif;
+}
+
+
